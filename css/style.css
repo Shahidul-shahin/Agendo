@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.clr{
+    clear:both;
+}
+
+ul{
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+}
+
+.full-wrapper{
+    width:100%;
+}
+
+.container{
+    width:1170px;
+    margin: 0 auto;
+}
+
+@font-face{
+    font-family:'Roboto-Regular';
+    src:url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Rochester';
+    src:url(../fonts/Rochester/Rochester-Regular.ttf);
+}
+
+/* common css end */
+
+/* banner start */
+.banner-bg{
+    height: 950px;
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-bg .banner-overlay{
+    width:100%;
+    height: 100%;
+    background: rgb(0, 0,0, 0.60);
+}
+
+.banner-bg .banner-overlay .banner{
+    height: 950px;
+    /* background: #f8a4a4; */
+    text-align: center;  
+}
+
+.banner-bg .banner-overlay .banner h1{
+    text-transform: uppercase;
+    font-family: 'Roboto-Regular';
+    line-height: 950px;
+    font: size 60px;
+    color: #fff;
+}
+
+/* banner end */
+
+/* menu start */
+.menu-bg{
+    height: 100px;
+    background: #177bbb;
+}
+
+.menu{
+    height: 100px;
+}
+
+.menu .menu-logo{
+    width:200px;
+    height: 100%;
+    /* background: #cd6363; */
+    float: left;
+}
+
+
+.menu .menu-logo h1 a{
+    font-family: 'Rochester';
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+}
+
+.menu .menu-list{
+    width: 970px;
+    height:100%;
+    /* background: #34e2f5; */
+    float: left;
+}
+
+.menu .menu-list ul{
+    float: right;
+}
+
+.menu .menu-list ul li{
+    display: inline-block;
+}
+
+.menu .menu-list ul li a{
+    padding-left: 40px;
+    float: left;
+    line-height: 100px;
+    font-family: 'Roboto-Regular';
+    font-size:16px;
+    color:#dfccccc0;
+    text-transform:capitalize;
+    transition:all linear 0.4s; 
+    -webkit-transition:all linear 0.4s;
+    -moz-transition:all linear 0.4s;
+    -o-transition:all linear 0.4s;
+    -ms-transition:all linear 0.4s;
+}
+
+.menu .menu-list ul li #active{
+    color: #fff;
+}
+
+.menu .menu-list ul li:hover> a{
+    color: #fff;
+}
+/* menu end */
+
+
+/* features start */
+.features-bg{
+    height: 380px;
+    /* background: #91f0e9; */
+    margin: 100px 0;
+}
+
+
+.features-bg .features{
+    height: 100%;
+    /* background: #de6e6e; */
+}
+
+.features-bg .features .features-item{
+    height: 263px;
+    /* background: #deaf23; */
+}
+
+.features-bg .features .features-item h1{
+    font-family: 'Roboto-Regular';
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.features-bg .features .features-item p{
+    font-family: 'Roboto-Regular';
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+    line-height:20px;
+}
+
+.features-bg .features .features-item .item-contant-1{
+    width:275px;
+    height: 263px;
+    /* background: #23dedb; */
+    float: left;
+}
+
+.features-bg .features .features-item .item-contant-1 .logo{
+    height: 100px;
+    /* background: #f12828; */
+    text-align: center;
+}
+
+.features-bg .features .features-item .item-contant-2{
+    width:275px;
+    height: 263px;
+    /* background: #23de6e; */
+    float: left;
+    margin: 0 172.5px;
+}
+
+.features-bg .features .features-item .item-contant-2 .logo{
+    height: 100px;
+    /* background: #f12828; */
+    text-align: center;
+}
+
+.features-bg .features .features-item .item-contant-3{
+    width:275px;
+    height: 263px;
+    /* background: #b429e6; */
+    float: left;
+}
+
+.features-bg .features .features-item .item-contant-3 .logo{
+    height: 100px;
+    /* background: #f12828; */
+    text-align: center;
+}
+
+
+
+.features-bg .features .features-heading h1{
+    text-align: center;
+}
+
+.features-bg .features .features-heading h1 #AGENDO{
+    color: #177bbb;
+}
+
+.features-bg .features .features-heading{
+    height: 117px;
+    /* background: #75a8eb; */
+}
+
+.features-bg .features .features-heading h1{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.features-bg .features .features-heading h1 a{
+    font-family: 'Roboto-Regular';
+    font-size: 22px;
+    color: #010000;
+    text-align: center;
+}
+
+/* features end */
+
+
+/* showcase start */
+.showcase-bg{
+    height: 720px;
+    background-color: #b9d7ea;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
+.showcase-bg .showcase-overlay .showcase-banner{
+    height: 720px;
+    position: relative;
+}
+
+.showcase-bg .showcase-overlay .showcase-banner h2{
+    font-family:'Roboto-Regular';
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 100px;
+}
+
+.showcase-bg .showcase-overlay .showcase-banner p{
+    font-family: 'Roboto-Regular';
+    font-size: 16px;
+    text-align:center;
+    color:#666666;
+    padding-top: 30px;
+    padding-left: 290px;
+    padding-right: 290px;
+}
+
+.showcase-bg .showcase-overlay .showcase-banner ul{
+    line-height: 100px;
+}
+
+.showcase-bg .showcase-overlay .showcase-banner ul li a{
+    font-family: 'Roboto-Regular';
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    background: #177bbb;
+    padding: 15px 30px 15px 30px;
+    border-radius: 8px;
+}
+
+.showcase-bg .showcase-overlay .showcase-banner a img{
+    position: absolute;
+    bottom:0;
+    left:8%;
+}
+
+/* showcase end */
+
+/* ralway start */
+    .relway{
+        height: 400px;
+       background:url(../images/Relway.png); 
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+    }
+
+    .relway .relway-overley{
+        height: 100%;
+        background: rgb(025, 025, 025);
+        opacity: 90%;
+    }
+
+    .relway .relway-overley .relway-bg{
+        height:400px;
+    }
+
+    .relway .relway-overley .relway-bg a img{
+        margin-left:48%;
+        margin-top:100px;
+    }
+
+    .relway .relway-overley .relway-bg h2{
+        font-family: 'Roboto-Regular';
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .relway .relway-overley .relway-bg p{
+        text-align: center;
+        font-family: 'Roboto-Regular';
+        font-size: 14px;
+        color: #177bbb;
+        padding-top:25px;
+        /* padding-bottom:25px; */
+    }
+
+    .relway .relway-overley .relway-bg p #spac{
+        padding: 5px;
+    }
+
+    .relway .relway-overley .relway-bg .dot {
+        font-size: 80px;
+        text-align: center;
+        padding:0;
+        padding-top: -150px;
+        margin-top: -35px;
+    }
+
+.relway .relway-overley .relway-bg .dot #first-dot{
+    color: #fff;
+}
+
+.relway .relway-overley .relway-bg .dot #second-dot{
+    color: #b3acacc3;
+}
+
+.relway .relway-overley .relway-bg .dot #third-dot{
+    color: #117ff5c3;
+}
+
+
+
+
+    
+/* ralway end */
